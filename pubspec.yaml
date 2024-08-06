@@ -1,0 +1,36 @@
+name: WebHopers
+description: "A new Flutter project."
+publish_to: 'none' # This prevents the package from being published to pub.dev. Remove this line if you want to publish it.
+
+version: 1.0.0+1 # Version and build number for your application. This can be overridden with --build-name and --build-number during build.
+
+environment:
+  sdk: '>=3.2.6 <4.0.0' # Specifies the Dart SDK version required.
+
+dependencies:
+  flutter:
+    sdk: flutter # Specifies that the app depends on the Flutter SDK.
+
+  cupertino_icons: ^1.0.2 # Adds Cupertino icons for iOS style icons.
+  provider: ^6.0.5
+  http: ^1.2.0
+  shimmer: ^2.0.0
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # Provides support for testing Flutter applications
+#  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^2.0.0 # Contains a set of recommended lints to encourage good coding practices.
+
+#flutter_launcher_icons:
+#  android: "launcher_icon"
+#  ios: true
+#  image_path: "assets/images/icon-512.png"
+#  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true # Ensures that the Material Icons font is included in your application.
+
+  assets:
+    - assets/images/ # Specifies the directory where your image assets are stored.
